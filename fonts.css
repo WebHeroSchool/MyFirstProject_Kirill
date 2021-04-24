@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'roboto';
+	src: url("/fonts/roboto.woff") format("woff")
+}
+@font-face {
+	font-family: 'PT Serif';
+	src: url("/fonts/PT Serif.woff") format("woff")
+}
