@@ -1,8 +1,8 @@
-nav, p, button {
+.menu, .main-content__subtitle, .main-content__button {
 	font-family: 'Roboto', sans-serif;
 }
 
-h1, div {
+.main-content__title, .logo {
 	font-family:'PT Serif', serif;
 }
 
