@@ -2,14 +2,6 @@ body {
   margin: 0;
 }
 
-.menu, .main-content__subtitle, .main-content__button {
-	font-family: 'Roboto', sans-serif;
-}
-
-.main-content__title {
-	font-family:'PT Serif', serif;
-}
-
 .wrapper {
 	margin: auto;
 	width: 80%;
@@ -43,7 +35,10 @@ padding: 0 13px;
 padding-right: 0;
 }
 
+.menu, .main-content__subtitle, .main-content__button {
+	font-family: 'Roboto', sans-serif;
+}
 
-
-
-
+.main-content__title {
+	font-family:'PT Serif', serif;
+}
