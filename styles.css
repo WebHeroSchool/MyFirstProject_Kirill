@@ -1,8 +1,12 @@
+body {
+  margin: 0;
+}
+
 .menu, .main-content__subtitle, .main-content__button {
 	font-family: 'Roboto', sans-serif;
 }
 
-.main-content__title, .logo {
+.main-content__title {
 	font-family:'PT Serif', serif;
 }
 
@@ -11,8 +15,19 @@
 	width: 80%;
 }
 
-.logo, .menu {
+.header {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
 	display: inline-block;
+	// font:bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+	width: 197px;
+	height: 43px;
+	background: url('img/logo.svg');
+	position: relative;
 }
 
 .menu {
@@ -28,12 +43,7 @@ padding: 0 13px;
 padding-right: 0;
 }
 
-.logo{
-	padding: 40px 0;
-}
 
-.header {
-	display: flex;
-	justify-content: space-between;
-}
+
+
 
