@@ -29,14 +29,14 @@ body {
 .menu__item {
 position: relative;
 margin-right: 26px;
-font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+font: 500 18px/21px 'roboto_medium';
 color: #000;
 text-decoration: none;
-transition: opacity 0.5s;
+transition: opacity .5s;
 }
 
 .menu__item:last-child {
-margin-right-right: 0;
+margin-right: 0;
 }
 
 
@@ -53,7 +53,7 @@ width: 0;
 height: 3px;
 background: #0056EC;
 opacity: 0;
-transition: opacity 0.5s, width 0.5s;
+transition: opacity .5s, width .5s;
 }
 
 
@@ -66,7 +66,7 @@ width: 0;
 height: 3px;
 background: #0056EC;
 opacity: 0;
-transition: opacity 0.5s, width 0.5s;
+transition: opacity .5s, width .5s;
 }
 
 .menu__item:hover:after, .menu__item_active::after {
