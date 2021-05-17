@@ -79,9 +79,10 @@ width: 100%;
 
 .main {
 margin-top: -75px;
+margin-right: -120px;
 padding: 75px 0 250px 0;
 background: no-repeat url(img/mainimg.svg);
-background-position: bottom 112px right -120px;
+background-position: right bottom 112px;
 }
 
 .main__title-text-highlight {
