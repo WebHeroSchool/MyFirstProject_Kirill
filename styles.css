@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 20px;
 }
 
 .wrapper {
@@ -8,21 +8,28 @@ body {
 }
 
 .header {
-	padding: 40px 0;
+	padding: 20px 0 20px 0;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 222px;
 }
 
-.logo{
+.logo {
 	display: inline-block;
+<<<<<<< Updated upstream
 	// font:bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 	width: 197px;
 	height: 43px;
+=======
+	width: 190px;
+	height: 35px;
+>>>>>>> Stashed changes
 	background: url('img/logo.svg');
 	position: relative;
 }
 
 .menu {
+	margin-right: -115px;
 	display: flex;
 	align-items: center;
 }
@@ -35,10 +42,63 @@ padding: 0 13px;
 padding-right: 0;
 }
 
+<<<<<<< Updated upstream
 .menu, .main-content__subtitle, .main-content__button {
 	font-family: 'Roboto', sans-serif;
 }
 
 .main-content__title {
 	font-family:'PT Serif', serif;
+=======
+.main {
+margin-top: -75px;
+padding: 75px 0 250px 0;
+background: top right no-repeat url(img/mainimg.svg);
+}
+
+.main__title-text-highlight {
+	background: #ECF3FF;
+}
+
+.main__title {
+align-items: center;
+margin: 0 0 41px -1px;
+width: 567px;
+height: 255px;
+font: 700 66px/87px 'pt_serifbold';
+}
+
+.main__subtitle {
+display: flex;
+margin: 0 0 41px -1px;
+width: 455px;
+height: 52px;
+font: 400 22px/26px 'roboto_regular';
+}
+
+.main__button {
+display: inline-block;
+font: 500 18px/21px 'roboto_medium';
+color: #fff;
+padding: 19px 17px 10px 21px;
+width: 233px;
+height: 27px;
+background: #0056EC;
+border-radius: 4px;
+text-decoration: none;
+transition: opacity .5s;
+}
+
+.main__button:hover {
+	opacity: .5;
+}
+
+
+.menu, .main__subtitle, .main__button {
+	font-family: 'roboto_medium', sans-serif;
+}
+
+.main__title {
+	font-family:'pt_serifbold', serif;
+>>>>>>> Stashed changes
 }
