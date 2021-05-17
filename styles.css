@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-	padding: 20px 0 20px 0;
+	padding: 20px 0;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 222px;
@@ -16,44 +16,72 @@ body {
 
 .logo {
 	display: inline-block;
-<<<<<<< Updated upstream
-	// font:bold 24px/31px pt_serif, arial, helvetica, sans-serif;
-	width: 197px;
-	height: 43px;
-=======
 	width: 190px;
 	height: 35px;
->>>>>>> Stashed changes
 	background: url('img/logo.svg');
 	position: relative;
 }
 
 .menu {
-	margin-right: -115px;
+    margin-right: -115px;
 	display: flex;
 	align-items: center;
 }
 
 .menu__item {
-padding: 0 13px;
+    position: relative;
+    margin-right: 26px;
+    font: 500 18px/21px 'roboto_medium';
+    color: #000;
+    text-decoration: none;
+    transition: opacity .5s;
 }
 
 .menu__item:last-child {
-padding-right: 0;
+margin-right: 0;
 }
 
-<<<<<<< Updated upstream
-.menu, .main-content__subtitle, .main-content__button {
-	font-family: 'Roboto', sans-serif;
+
+.menu__item:hover {
+opacity: 0.5;
 }
 
-.main-content__title {
-	font-family:'PT Serif', serif;
-=======
+.menu__item:hover:after {
+position: absolute;
+left: 0;
+display: block;
+content: "";
+width: 0;
+height: 3px;
+background: #0056EC;
+opacity: 0;
+transition: opacity .5s, width .5s;
+}
+
+
+.menu__item_active::after {
+position: absolute;
+display: block;
+content: "";
+left: 0;
+width: 0;
+height: 3px;
+background: #0056EC;
+opacity: 0;
+transition: opacity .5s, width .5s;
+}
+
+.menu__item:hover:after, .menu__item_active::after {
+opacity: 1;
+width: 100%;
+}
+
+
 .main {
 margin-top: -75px;
 padding: 75px 0 250px 0;
-background: top right no-repeat url(img/mainimg.svg);
+background: no-repeat url(img/mainimg.svg);
+background-position: bottom 112px right -120px;
 }
 
 .main__title-text-highlight {
@@ -93,12 +121,13 @@ transition: opacity .5s;
 	opacity: .5;
 }
 
-
-.menu, .main__subtitle, .main__button {
+.menu, .main__button {
 	font-family: 'roboto_medium', sans-serif;
 }
 
+.main__subtitle {
+	font-family: 'roboto_regular', sans-serif;
+}
 .main__title {
 	font-family:'pt_serifbold', serif;
->>>>>>> Stashed changes
 }
