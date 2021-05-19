@@ -25,6 +25,7 @@ body {
 .menu {
 	display: flex;
 	align-items: center;
+	margin-right: -564px;
 }
 
 .menu__item {
@@ -85,7 +86,6 @@ background-position: right bottom 114px;
 }
 
 .main__title-text-highlight {
-	padding-top: 2px;
 	background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 
@@ -127,7 +127,8 @@ transition: opacity .5s;
 	width: 32px;
 	height: 8px;
 	background: url('img/tochki.svg');
-	margin: auto;
+	margin-left: 793px;
+	margin-top: 20px;
 	text-align: center;
 	vertical-align: bottom;
 }
