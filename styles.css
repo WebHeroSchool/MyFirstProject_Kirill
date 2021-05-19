@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-	padding: 20px 0;
+	padding: 20px 45px;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 222px;
@@ -23,7 +23,6 @@ body {
 }
 
 .menu {
-    margin-right: -115px;
 	display: flex;
 	align-items: center;
 }
@@ -78,20 +77,21 @@ width: 100%;
 
 
 .main {
-margin-top: -75px;
-margin-right: -120px;
-padding: 75px 0 250px 0;
+margin-top: -76px;
+margin-right: -524px;
+padding: 75px 0 250px 46px;
 background: no-repeat url(img/mainimg.svg);
-background-position: right bottom 112px;
+background-position: right bottom 114px;
 }
 
 .main__title-text-highlight {
-	background: #ECF3FF;
+	padding-top: 2px;
+	background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 
 .main__title {
 align-items: center;
-margin: 0 0 41px -1px;
+margin: 0 0 41px -2px;
 width: 567px;
 height: 255px;
 font: 700 66px/87px 'pt_serifbold';
@@ -99,7 +99,7 @@ font: 700 66px/87px 'pt_serifbold';
 
 .main__subtitle {
 display: flex;
-margin: 0 0 41px -1px;
+margin: 0 0 42px -2px;
 width: 455px;
 height: 52px;
 font: 400 22px/26px 'roboto_regular';
@@ -107,11 +107,12 @@ font: 400 22px/26px 'roboto_regular';
 
 .main__button {
 display: inline-block;
+margin-left: -1px;
 font: 500 18px/21px 'roboto_medium';
 color: #fff;
 padding: 19px 17px 10px 21px;
 width: 233px;
-height: 27px;
+height: 28px;
 background: #0056EC;
 border-radius: 4px;
 text-decoration: none;
@@ -120,6 +121,15 @@ transition: opacity .5s;
 
 .main__button:hover {
 	opacity: .5;
+}
+
+.tochki {
+	width: 32px;
+	height: 8px;
+	background: url('img/tochki.svg');
+	margin: auto;
+	text-align: center;
+	vertical-align: bottom;
 }
 
 .menu, .main__button {
